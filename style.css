@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 60px;
+    width: 200px;
+}
+.logo{
+    background-image: url(Amazon-Logo-White-Transparent.png);
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+border: 2px solid white;
+}
+/** box2 **/
+
+.para{
+    color: #cccccc;
+   font-size: 0.85rem;
+   margin-left: 16px;
+   color: white;
+}
+.country{
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.addicon{
+    display: flex;
+    color: white;
+}
+.navaddress{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+/** box3 **/
+.navsearch{
+    display: flex;
+    background-color:rgb(245, 175, 44);
+    width: 620px;
+    height: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.navsearch:hover{
+border: 2px solid rgb(245, 176, 47);
+}
+.select{
+    background-color: #f3f3f3;
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+.search{
+    background-color: #f3f3f3;
+    width: 510px;
+    font-size: 1rem;
+    background-color: #f3f3f3;
+    border: none;
+}
+.searchicon{
+    align-items: center;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    color: #0f1111;
+}
+/** box4 **/
+span {
+    font-size: 12px;
+    color: white;
+}
+.navsecond {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+/** box6 **/
+.cart i{
+ font-size: 30px;
+ color: white;
+
+}
+.cart{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    color: white;
+}
+.panel-option{
+    width: 70%;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.panel-deals{
+    font-size: 16.5px;
+    font-weight: 700;
+    color: white;
+}
+/** hero **/
+.hero{
+    background-image: url(71C-ztbXMCL._SX3000_.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: rgb(244, 239, 239);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    bottom: 25px;
+    width: 80%;
+    margin-bottom: 100px;
+}
+.hero-msg a{
+    color: rgb(95, 186, 95);
+}
+.box{
+    border: 0.1px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246, 255, 233);
+}
+.img-1{
+    width: 165px;
+    height: 130px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+h2{
+    margin-left: 20px;
+}
+.para{
+    margin-left: 20px;
+    color: black;
+    color: rgb(24, 117, 24);
+}
+.content-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246, 255, 233);
+    margin-top: 30px;
+}
+.img-2{
+    width: 330px;
+    height: 300px;
+    margin-left: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p{
+    margin-left: 20px;
+    color: black;
+    font-size: 14px;
+    color: rgb(24, 117, 24);
+}
+.para1{
+    color: white;
+    margin-right: 5px;
+}
+/** footer **/
+footer{
+    margin-top: 30px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pfoot{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+ul a {
+    display: block;
+    font-size: 14px;
+
+}
+a{
+    margin-top: 15px;
+  margin-left: 20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.logo-lower{
+    width:70px;
+    height: 22px;
+    margin-top: 10px;
+    margin-right:70px ;
+    
+}
+.select-2{
+    width: 130px;
+    height: 35px;
+    background: transparent;
+   color: white;
+   border:0.5px solid #cccccc;
+   border-radius: 3px;
+   margin-left: 50px;
+}
+.button-3{
+    width: 130px;
+    height: 35px;
+    background: transparent;
+   color: white;
+   border: 1px solid #cccccc;
+   border-radius: 3px;
+   margin-left: 8px;
+}
